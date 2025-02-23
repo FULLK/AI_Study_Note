@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://www.heywhale.com/
+HostUrl=https://modelwhale-datasets-1254542291.cos.ap-nanjing.myqcloud.com/5ddb3f9d249294002d4e035f/1574822171666_1/fra.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKID796tYNDKOYtIlClJrJIB1qX9qXDqR4au%2F20250116%2Fap-nanjing%2Fs3%2Faws4_request&X-Amz-Date=20250116T031322Z&X-Amz-Expires=7200&X-Amz-Signature=64414eec2acc3e713b39b7d108cc1a6652e15ae893b5842812a14feae5631ab2&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfra.txt&response-content-type=text%2Fplain%3B%20charset%3Dutf-8

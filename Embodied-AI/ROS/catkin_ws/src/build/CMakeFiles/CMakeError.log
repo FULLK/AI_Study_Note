@@ -1,0 +1,812 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92ac9/fast && /usr/bin/make -f CMakeFiles/cmTC_92ac9.dir/build.make CMakeFiles/cmTC_92ac9.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92ac9.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_92ac9.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_92ac9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ac9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_92ac9.dir/src.c.o  -o cmTC_92ac9 
+/usr/bin/ld: CMakeFiles/cmTC_92ac9.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_92ac9.dir/build.make:87: cmTC_92ac9] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_92ac9/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4d77/fast && /usr/bin/make -f CMakeFiles/cmTC_b4d77.dir/build.make CMakeFiles/cmTC_b4d77.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4d77.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b4d77.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b4d77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4d77.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b4d77.dir/CheckFunctionExists.c.o  -o cmTC_b4d77  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b4d77.dir/build.make:87: cmTC_b4d77] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b4d77/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27669/fast && /usr/bin/make -f CMakeFiles/cmTC_27669.dir/build.make CMakeFiles/cmTC_27669.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27669.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_27669.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_27669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27669.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_27669.dir/src.c.o  -o cmTC_27669 
+/usr/bin/ld: CMakeFiles/cmTC_27669.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_27669.dir/build.make:87: cmTC_27669] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_27669/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d226d/fast && /usr/bin/make -f CMakeFiles/cmTC_d226d.dir/build.make CMakeFiles/cmTC_d226d.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d226d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d226d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d226d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d226d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d226d.dir/CheckFunctionExists.c.o  -o cmTC_d226d  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d226d.dir/build.make:87: cmTC_d226d] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d226d/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b093d/fast && /usr/bin/make -f CMakeFiles/cmTC_b093d.dir/build.make CMakeFiles/cmTC_b093d.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b093d.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b093d.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b093d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b093d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_b093d.dir/src.c.o  -o cmTC_b093d 
+/usr/bin/ld: CMakeFiles/cmTC_b093d.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b093d.dir/build.make:87: cmTC_b093d] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b093d/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7873b/fast && /usr/bin/make -f CMakeFiles/cmTC_7873b.dir/build.make CMakeFiles/cmTC_7873b.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7873b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7873b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7873b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7873b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7873b.dir/CheckFunctionExists.c.o  -o cmTC_7873b  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7873b.dir/build.make:87: cmTC_7873b] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7873b/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7c87/fast && /usr/bin/make -f CMakeFiles/cmTC_c7c87.dir/build.make CMakeFiles/cmTC_c7c87.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7c87.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c7c87.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c7c87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c87.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_c7c87.dir/src.c.o  -o cmTC_c7c87 
+/usr/bin/ld: CMakeFiles/cmTC_c7c87.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c7c87.dir/build.make:87: cmTC_c7c87] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c7c87/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3add/fast && /usr/bin/make -f CMakeFiles/cmTC_e3add.dir/build.make CMakeFiles/cmTC_e3add.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3add.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e3add.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3add
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3add.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e3add.dir/CheckFunctionExists.c.o  -o cmTC_e3add  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e3add.dir/build.make:87: cmTC_e3add] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e3add/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98b4c/fast && /usr/bin/make -f CMakeFiles/cmTC_98b4c.dir/build.make CMakeFiles/cmTC_98b4c.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98b4c.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_98b4c.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_98b4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98b4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_98b4c.dir/src.c.o  -o cmTC_98b4c 
+/usr/bin/ld: CMakeFiles/cmTC_98b4c.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_98b4c.dir/build.make:87: cmTC_98b4c] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_98b4c/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f813/fast && /usr/bin/make -f CMakeFiles/cmTC_8f813.dir/build.make CMakeFiles/cmTC_8f813.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f813.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8f813.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f813
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f813.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8f813.dir/CheckFunctionExists.c.o  -o cmTC_8f813  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8f813.dir/build.make:87: cmTC_8f813] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8f813/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51504/fast && /usr/bin/make -f CMakeFiles/cmTC_51504.dir/build.make CMakeFiles/cmTC_51504.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51504.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_51504.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_51504
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51504.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_51504.dir/src.c.o  -o cmTC_51504 
+/usr/bin/ld: CMakeFiles/cmTC_51504.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_51504.dir/build.make:87: cmTC_51504] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_51504/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1433a/fast && /usr/bin/make -f CMakeFiles/cmTC_1433a.dir/build.make CMakeFiles/cmTC_1433a.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1433a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1433a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1433a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1433a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1433a.dir/CheckFunctionExists.c.o  -o cmTC_1433a  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1433a.dir/build.make:87: cmTC_1433a] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1433a/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd1e7/fast && /usr/bin/make -f CMakeFiles/cmTC_fd1e7.dir/build.make CMakeFiles/cmTC_fd1e7.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd1e7.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fd1e7.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fd1e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd1e7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_fd1e7.dir/src.c.o  -o cmTC_fd1e7 
+/usr/bin/ld: CMakeFiles/cmTC_fd1e7.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fd1e7.dir/build.make:87: cmTC_fd1e7] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fd1e7/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6bf38/fast && /usr/bin/make -f CMakeFiles/cmTC_6bf38.dir/build.make CMakeFiles/cmTC_6bf38.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bf38.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6bf38.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6bf38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf38.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6bf38.dir/CheckFunctionExists.c.o  -o cmTC_6bf38  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6bf38.dir/build.make:87: cmTC_6bf38] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6bf38/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00667/fast && /usr/bin/make -f CMakeFiles/cmTC_00667.dir/build.make CMakeFiles/cmTC_00667.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00667.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_00667.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_00667
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00667.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_00667.dir/src.c.o  -o cmTC_00667 
+/usr/bin/ld: CMakeFiles/cmTC_00667.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_00667.dir/build.make:87: cmTC_00667] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_00667/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfe2c/fast && /usr/bin/make -f CMakeFiles/cmTC_dfe2c.dir/build.make CMakeFiles/cmTC_dfe2c.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfe2c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dfe2c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dfe2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe2c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dfe2c.dir/CheckFunctionExists.c.o  -o cmTC_dfe2c  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dfe2c.dir/build.make:87: cmTC_dfe2c] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dfe2c/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1208e/fast && /usr/bin/make -f CMakeFiles/cmTC_1208e.dir/build.make CMakeFiles/cmTC_1208e.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1208e.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1208e.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1208e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1208e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_1208e.dir/src.c.o  -o cmTC_1208e 
+/usr/bin/ld: CMakeFiles/cmTC_1208e.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1208e.dir/build.make:87: cmTC_1208e] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1208e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad026/fast && /usr/bin/make -f CMakeFiles/cmTC_ad026.dir/build.make CMakeFiles/cmTC_ad026.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad026.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ad026.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad026.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ad026.dir/CheckFunctionExists.c.o  -o cmTC_ad026  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ad026.dir/build.make:87: cmTC_ad026] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ad026/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6644/fast && /usr/bin/make -f CMakeFiles/cmTC_d6644.dir/build.make CMakeFiles/cmTC_d6644.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6644.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d6644.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6644
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6644.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_d6644.dir/src.c.o  -o cmTC_d6644 
+/usr/bin/ld: CMakeFiles/cmTC_d6644.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d6644.dir/build.make:87: cmTC_d6644] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d6644/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38fa1/fast && /usr/bin/make -f CMakeFiles/cmTC_38fa1.dir/build.make CMakeFiles/cmTC_38fa1.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38fa1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_38fa1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38fa1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38fa1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_38fa1.dir/CheckFunctionExists.c.o  -o cmTC_38fa1  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_38fa1.dir/build.make:87: cmTC_38fa1] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_38fa1/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22b40/fast && /usr/bin/make -f CMakeFiles/cmTC_22b40.dir/build.make CMakeFiles/cmTC_22b40.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22b40.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_22b40.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22b40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22b40.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_22b40.dir/src.c.o  -o cmTC_22b40 
+/usr/bin/ld: CMakeFiles/cmTC_22b40.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_22b40.dir/build.make:87: cmTC_22b40] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_22b40/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27bad/fast && /usr/bin/make -f CMakeFiles/cmTC_27bad.dir/build.make CMakeFiles/cmTC_27bad.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27bad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_27bad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_27bad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27bad.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_27bad.dir/CheckFunctionExists.c.o  -o cmTC_27bad  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_27bad.dir/build.make:87: cmTC_27bad] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_27bad/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bcad/fast && /usr/bin/make -f CMakeFiles/cmTC_9bcad.dir/build.make CMakeFiles/cmTC_9bcad.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bcad.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_9bcad.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9bcad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bcad.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_9bcad.dir/src.c.o  -o cmTC_9bcad 
+/usr/bin/ld: CMakeFiles/cmTC_9bcad.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_9bcad.dir/build.make:87: cmTC_9bcad] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9bcad/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2d8b/fast && /usr/bin/make -f CMakeFiles/cmTC_c2d8b.dir/build.make CMakeFiles/cmTC_c2d8b.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2d8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c2d8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c2d8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2d8b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c2d8b.dir/CheckFunctionExists.c.o  -o cmTC_c2d8b  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c2d8b.dir/build.make:87: cmTC_c2d8b] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c2d8b/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68da9/fast && /usr/bin/make -f CMakeFiles/cmTC_68da9.dir/build.make CMakeFiles/cmTC_68da9.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68da9.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_68da9.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_68da9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68da9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_68da9.dir/src.c.o  -o cmTC_68da9 
+/usr/bin/ld: CMakeFiles/cmTC_68da9.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_68da9.dir/build.make:87: cmTC_68da9] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_68da9/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74e13/fast && /usr/bin/make -f CMakeFiles/cmTC_74e13.dir/build.make CMakeFiles/cmTC_74e13.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74e13.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_74e13.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74e13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74e13.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_74e13.dir/CheckFunctionExists.c.o  -o cmTC_74e13  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_74e13.dir/build.make:87: cmTC_74e13] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_74e13/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71cad/fast && /usr/bin/make -f CMakeFiles/cmTC_71cad.dir/build.make CMakeFiles/cmTC_71cad.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71cad.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_71cad.dir/src.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71cad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71cad.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_71cad.dir/src.c.o  -o cmTC_71cad 
+/usr/bin/ld: CMakeFiles/cmTC_71cad.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_71cad.dir/build.make:87: cmTC_71cad] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_71cad/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3b80/fast && /usr/bin/make -f CMakeFiles/cmTC_c3b80.dir/build.make CMakeFiles/cmTC_c3b80.dir/build
+make[1]: Entering directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3b80.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3b80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3b80.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c3b80.dir/CheckFunctionExists.c.o  -o cmTC_c3b80  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c3b80.dir/build.make:87: cmTC_c3b80] Error 1
+make[1]: Leaving directory '/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c3b80/fast] Error 2
+
+
+

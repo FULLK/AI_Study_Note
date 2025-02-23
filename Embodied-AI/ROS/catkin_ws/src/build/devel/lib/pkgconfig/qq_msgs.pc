@@ -1,0 +1,8 @@
+prefix=/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel
+
+Name: qq_msgs
+Description: Description of qq_msgs
+Version: 0.0.0
+Cflags: -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs

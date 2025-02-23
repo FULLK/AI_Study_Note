@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/devel/setup.sh

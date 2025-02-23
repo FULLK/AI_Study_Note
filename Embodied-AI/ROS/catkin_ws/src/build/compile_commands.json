@@ -1,0 +1,557 @@
+[
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_imu_tf.dir/src/wpb_home_imu_tf.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_imu_tf.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_imu_tf.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_calibrate_velocity.dir/src/wpb_home_calibrate_velocity.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_calibrate_velocity.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_calibrate_velocity.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_test_mani.dir/src/wpb_home_test_mani.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_test_mani.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_test_mani.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_test_mani.dir/src/driver/SerialCom.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_test_mani.dir/src/driver/WPB_Home_driver.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_test_motors.dir/src/wpb_home_test_motors.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_test_motors.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_test_motors.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_test_motors.dir/src/driver/SerialCom.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_test_motors.dir/src/driver/WPB_Home_driver.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_core.dir/src/wpb_home_core.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_core.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_core.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_core.dir/src/driver/SerialCom.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_core.dir/src/driver/WPB_Home_driver.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_js_vel.dir/src/wpb_home_js_vel.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_js_vel.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_js_vel.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_lidar_filter.dir/src/wpb_home_lidar_filter.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_lidar_filter.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_lidar_filter.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_motor_encoder.dir/src/wpb_home_motor_encoder.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_motor_encoder.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/wpb_home_motor_encoder.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_motor_encoder.dir/src/driver/SerialCom.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/SerialCom.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_bringup\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wpb_home_motor_encoder.dir/src/driver/WPB_Home_driver.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_bringup/src/driver/WPB_Home_driver.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/map_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/map_pub_node.dir/src/map_pub_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/map_pkg/src/map_pub_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/map_pkg/src/map_pub_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/atr_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"atr_pkg\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/ma_node.dir/src/ma_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/atr_pkg/src/ma_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/atr_pkg/src/ma_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/ssr_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ssr_pkg\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/yao_node.dir/src/yao_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/ssr_pkg/src/yao_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/ssr_pkg/src/yao_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/ssr_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ssr_pkg\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/chao_node.dir/src/chao_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/ssr_pkg/src/chao_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/ssr_pkg/src/chao_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/nav_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"nav_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/nav_client.dir/src/nav_client.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/nav_pkg/src/nav_client.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/nav_pkg/src/nav_client.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/nav_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"nav_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/wp_node.dir/src/nav_client.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/nav_pkg/src/nav_client.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/nav_pkg/src/nav_client.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/imu_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/imu_node.dir/src/imu_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/imu_pkg/src/imu_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/imu_pkg/src/imu_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/lidar_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lidar_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/lidar_pkg/src/lidar_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/lidar_pkg/src/lidar_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/vel_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vel_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/vel_node.dir/src/vel_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/vel_pkg/src/vel_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/vel_pkg/src/vel_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_navi_server_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_navi_server.dir/wp_navi_server_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_navi_server_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_navi_server_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_navi_server_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_navi_server.dir/src/wp_navi_server.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_navi_server.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_navi_server.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/charger_get_position_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/charger_get_position.dir/charger_get_position_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/charger_get_position_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/charger_get_position_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/charger_get_position_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/charger_get_position.dir/src/charger_get_position.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/charger_get_position.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/charger_get_position.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_remote_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_remote.dir/wp_nav_remote_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_remote_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_remote_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_remote_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_remote.dir/src/wp_nav_remote.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_nav_remote.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_nav_remote.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/cc -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_remote_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_remote.dir/src/network/UDPServer.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/network/UDPServer.c",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/network/UDPServer.c"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_saver_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_saver.dir/wp_saver_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_saver_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_saver_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_saver_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_saver.dir/src/wp_saver.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_saver.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_saver.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_test_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_test.dir/wp_nav_test_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_test_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_test_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_test_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_test.dir/src/wp_nav_test.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_nav_test.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_nav_test.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_edit_node_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_edit_node.dir/wp_edit_node_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_edit_node_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_edit_node_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_edit_node_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_edit_node.dir/src/wp_edit_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_edit_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_edit_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_manager_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_manager.dir/wp_manager_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_manager_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_manager_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_manager_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_manager.dir/src/wp_manager.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_manager.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_manager.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/pose_navi_server_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/pose_navi_server.dir/pose_navi_server_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/pose_navi_server_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/pose_navi_server_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/pose_navi_server_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/pose_navi_server.dir/src/pose_navi_server.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/pose_navi_server.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/pose_navi_server.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -Dwaterplus_map_tools_EXPORTS -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/waterplus_map_tools_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -fPIC -o CMakeFiles/waterplus_map_tools.dir/waterplus_map_tools_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/waterplus_map_tools_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/waterplus_map_tools_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -Dwaterplus_map_tools_EXPORTS -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/waterplus_map_tools_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -fPIC -o CMakeFiles/waterplus_map_tools.dir/src/add_waypoint_tool.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/add_waypoint_tool.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/add_waypoint_tool.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -Dwaterplus_map_tools_EXPORTS -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/waterplus_map_tools_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -fPIC -o CMakeFiles/waterplus_map_tools.dir/src/add_charger_tool.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/add_charger_tool.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/add_charger_tool.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_odom_report_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_odom_report.dir/wp_nav_odom_report_autogen/mocs_compilation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_odom_report_autogen/mocs_compilation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_odom_report_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_odom_report_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_odom_report.dir/src/wp_nav_odom_report.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_nav_odom_report.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/wp_nav_odom_report.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools",
+  "command": "/usr/bin/cc -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/waterplus_map_tools/wp_nav_odom_report_autogen/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -g   -o CMakeFiles/wp_nav_odom_report.dir/src/network/UDPClient.c.o   -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/network/UDPClient.c",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/waterplus_map_tools/src/network/UDPClient.c"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_behaviors",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_behaviors\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/opencv4 -I/usr/include/ni -I/usr/include/openni2    -g   -o CMakeFiles/wpb_home_place_action.dir/src/wpb_home_place_action.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_place_action.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_place_action.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_behaviors",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_behaviors\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/opencv4 -I/usr/include/ni -I/usr/include/openni2    -g   -o CMakeFiles/wpb_home_grab_action.dir/src/wpb_home_grab_action.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_grab_action.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_grab_action.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_behaviors",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_behaviors\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/opencv4 -I/usr/include/ni -I/usr/include/openni2    -g   -o CMakeFiles/wpb_home_pass_server.dir/src/wpb_home_pass_server.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_pass_server.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_pass_server.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_behaviors",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_behaviors\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/opencv4 -I/usr/include/ni -I/usr/include/openni2    -g   -o CMakeFiles/wpb_home_objects_3d.dir/src/wpb_home_objects_3d.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_objects_3d.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_objects_3d.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_behaviors",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_behaviors\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/opencv4 -I/usr/include/ni -I/usr/include/openni2    -g   -o CMakeFiles/wpb_home_face_detect_3d.dir/src/wpb_home_face_detect_3d.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_face_detect_3d.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_face_detect_3d.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_behaviors",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_behaviors\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/opencv4 -I/usr/include/ni -I/usr/include/openni2    -g   -o CMakeFiles/wpb_home_grab_server.dir/src/wpb_home_grab_server.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_grab_server.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_behaviors/src/wpb_home_grab_server.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_face_node.dir/src/wpb_home_face_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_face_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_face_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_grab_node.dir/src/wpb_home_grab_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_pointcloud_cluster.dir/src/wpb_home_pointcloud_cluster.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_pointcloud_cluster.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_pointcloud_cluster.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_pointcloud_node.dir/src/wpb_home_pointcloud_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_pointcloud_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_pointcloud_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_lidar_obstacle.dir/src/wpb_home_lidar_obstacle.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_lidar_obstacle.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_lidar_obstacle.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_grab_middle.dir/src/wpb_home_grab_middle.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_middle.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_middle.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_velocity_control.dir/src/wpb_home_velocity_control.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_velocity_control.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_velocity_control.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_plane_detect.dir/src/wpb_home_plane_detect.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_plane_detect.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_plane_detect.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_lidar_behavior.dir/src/wpb_home_lidar_behavior.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_lidar_behavior.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_lidar_behavior.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_obj_node.dir/src/wpb_home_obj_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_obj_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_obj_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -g   -o CMakeFiles/wpb_home_follow.dir/src/wpb_home_follow.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_follow.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_follow.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_simple_goal.dir/src/wpb_home_simple_goal.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_simple_goal.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_simple_goal.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_behavior_node.dir/src/wpb_home_behavior_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_behavior_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_behavior_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_grab_object.dir/src/wpb_home_grab_object.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_object.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_object.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_cruise.dir/src/wpb_home_cruise.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_cruise.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_cruise.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_obj_detect.dir/src/wpb_home_obj_detect.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_obj_detect.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_obj_detect.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_face_detect.dir/src/wpb_home_face_detect.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_face_detect.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_face_detect.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_imu_turn.dir/src/wpb_home_imu_turn.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_imu_turn.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_imu_turn.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_sr_xfyun.dir/src/wpb_home_sr_xfyun.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_sr_xfyun.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_sr_xfyun.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_speak.dir/src/wpb_home_speak.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_speak.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_speak.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_joystick_demo.dir/src/wpb_home_joystick_demo.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_joystick_demo.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_joystick_demo.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_image_node.dir/src/wpb_home_image_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_image_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_image_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_speech_recognition.dir/src/wpb_home_speech_recognition.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_speech_recognition.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_speech_recognition.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_voice_cmd.dir/src/wpb_home_voice_cmd.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_voice_cmd.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_voice_cmd.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_mani_ctrl.dir/src/wpb_home_mani_ctrl.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_mani_ctrl.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_mani_ctrl.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_grab_client.dir/src/wpb_home_grab_client.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_client.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_grab_client.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_capture_image.dir/src/wpb_home_capture_image.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_capture_image.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_capture_image.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_sound_local.dir/src/wpb_home_sound_local.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_sound_local.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_sound_local.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_serve_drinks.dir/src/wpb_home_serve_drinks.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_serve_drinks.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_serve_drinks.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpb_home_tutorials",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpb_home_tutorials\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/devel/include -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/include -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_lidar_data.dir/src/wpb_home_lidar_data.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_lidar_data.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpb_home_tutorials/src/wpb_home_lidar_data.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpbh_local_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpbh_local_planner\\\" -Dwpbh_local_planner_EXPORTS -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpbh_local_planner/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -o CMakeFiles/wpbh_local_planner.dir/src/wpbh_local_planner.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpbh_local_planner/src/wpbh_local_planner.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpbh_local_planner/src/wpbh_local_planner.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpb_home/wpbh_local_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpbh_local_planner\\\" -Dwpbh_local_planner_EXPORTS -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpbh_local_planner/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -o CMakeFiles/wpbh_local_planner.dir/src/CLidarAC.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpbh_local_planner/src/CLidarAC.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpb_home/wpbh_local_planner/src/CLidarAC.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_map_tool.dir/src/demo_map_tool.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_map_tool.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_map_tool.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_simple_goal.dir/src/demo_simple_goal.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_simple_goal.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_simple_goal.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_vel_ctrl.dir/src/demo_vel_ctrl.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_vel_ctrl.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_vel_ctrl.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -Dwpr_plugin_EXPORTS -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.10 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /usr/include/eigen3 -isystem /usr/include/sdformat-9.10/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid    -g -fPIC   -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/wpr_plugin.dir/src/wpr_plugin.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/wpr_plugin.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/wpr_plugin.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_waypoint_navi.dir/src/demo_waypoint_navi.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_waypoint_navi.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_waypoint_navi.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_map_pub.dir/src/demo_map_pub.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_map_pub.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_map_pub.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/wpb_home_sim.dir/src/wpb_home_sim.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/wpb_home_sim.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/wpb_home_sim.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_lidar_behavior.dir/src/demo_lidar_behavior.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_lidar_behavior.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_lidar_behavior.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/ball_random_move.dir/src/ball_random_move.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/ball_random_move.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/ball_random_move.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/keyboard_vel_ctrl.dir/src/keyboard_vel_ctrl.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/keyboard_vel_ctrl.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/keyboard_vel_ctrl.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/wpr1_sim.dir/src/wpr1_sim.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/wpr1_sim.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/wpr1_sim.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_sr_navigation.dir/src/demo_sr_navigation.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_sr_navigation.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_sr_navigation.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/lidar_filter.dir/src/lidar_filter.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/lidar_filter.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/lidar_filter.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/demo_lidar_data.dir/src/demo_lidar_data.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_lidar_data.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_lidar_data.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv4    -g   -o CMakeFiles/demo_imu_data.dir/src/demo_imu_data.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_imu_data.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_imu_data.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv4    -g   -o CMakeFiles/demo_imu_behavior.dir/src/demo_imu_behavior.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_imu_behavior.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_imu_behavior.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv4    -g   -o CMakeFiles/demo_cv_image.dir/src/demo_cv_image.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_image.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_image.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv4    -g   -o CMakeFiles/demo_cv_hsv.dir/src/demo_cv_hsv.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_hsv.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_hsv.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv4    -g   -o CMakeFiles/demo_cv_follow.dir/src/demo_cv_follow.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_follow.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_follow.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4    -g   -o CMakeFiles/teleop_js_node.dir/src/teleop_js_node.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/teleop_js_node.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/teleop_js_node.cpp"
+},
+{
+  "directory": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv4    -g   -o CMakeFiles/demo_cv_face_detect.dir/src/demo_cv_face_detect.cpp.o -c /home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_face_detect.cpp",
+  "file": "/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/src/wpr_simulation/src/demo_cv_face_detect.cpp"
+}
+]

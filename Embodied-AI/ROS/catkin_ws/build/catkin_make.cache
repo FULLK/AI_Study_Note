@@ -1,0 +1,2 @@
+atr_pkg:cv_pkg:imu_pkg:lidar_pkg:map_pkg:nav_pkg:qq_msgs:slam_pkg:ssr_pkg:vel_pkg:waterplus_map_tools:wpb_home/wpb_home_behaviors:wpb_home/wpb_home_bringup:wpb_home/wpb_home_python:wpb_home/wpb_home_python3:wpb_home/wpb_home_remote:wpb_home/wpb_home_tutorials:wpb_home/wpbh_local_planner:wpr_simulation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/llk/AI_Study_Note/Embodied-AI/ROS/catkin_ws/install -G Unix Makefiles

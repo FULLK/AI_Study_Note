@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/wp_node.dir/src/nav_client.cpp.o  -o ../devel/lib/nav_pkg/wp_node 
